@@ -65,5 +65,22 @@ npm i -g @vue/cli
  vue create myvue
  ```
  ## 二、图形化界面
- 
- ### 
+ ### 终端执行
+ ```
+ vue ui
+ ```
+ 访问web
+ # 3.运行项目
+ ```
+ rpm run server
+ ```
+ ## 服务器相关设置
+根目录添加vue.config.js
+```
+module.exports={
+    devServer:{
+        open:true,
+        port:8878
+    }
+}
+```
