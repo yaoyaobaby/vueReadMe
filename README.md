@@ -72,7 +72,7 @@ npm i -g @vue/cli
  访问web
  # 3.运行项目
  ```
- rpm run server
+ rpm run serve
  ```
  ## 服务器相关设置
 根目录添加vue.config.js
