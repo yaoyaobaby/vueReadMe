@@ -109,3 +109,5 @@ Vue.use(ElementUI)
   <el-button type="danger">危险按钮</el-button>
     </el-row>
 ```
+## js，export，requre，import
+[https://www.cnblogs.com/libin-1/p/7127481.html](https://www.cnblogs.com/libin-1/p/7127481.html)
