@@ -53,4 +53,17 @@ module:{
         }]
     }
 ```
-
+## 2.vue/cli脚手架
+## 一、命令方式 
+快速构建vue项目，通过http访问
+#### 安装vue脚手架
+```
+npm i -g @vue/cli
+ ```
+ #### 创建vue项目
+ ```
+ vue create myvue
+ ```
+ ## 二、图形化界面
+ 
+ ### 
