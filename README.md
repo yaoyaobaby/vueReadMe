@@ -17,7 +17,6 @@ rpm run dev
 //引入js
 <script src="../dist/main.js"></script>
 ### 打包文件输入输出设置
-
 var path = require('path')
  
 //当以命令行形式运行 webpack 或 webpack-dev-server 的时候，工具会发现，我们并没有提供要打包的文件的入口和出口
@@ -26,9 +25,12 @@ module.exports = {
     entry:path.join(__dirname,'./src/main.js'), // 入口文件
     output:{ //指定输出选项
         path:path.join(__dirname,'./dist'), //输出路径
-        filename:'bundle.js'  //指定输出文件的名称
- 
+        filename:'bundle.js'  //指定输出文件
     }
 }
-
+### 配置打包命令
+dev：webpack-dev-server
+<script src="/bundle.js"></script>
+访问http：//
+bundle.js存在与内存中
 ```
