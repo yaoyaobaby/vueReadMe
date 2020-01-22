@@ -34,3 +34,23 @@ dev：webpack-dev-server
 访问http：//
 bundle.js存在与内存中
 ```
+### 打包css
+#### 安装css加载器
+```
+npm i style-loader css-loader -D 
+```
+#### css文件引入index.js中
+```
+import './css/1.css'
+```
+#### webpack.config.js配置加载器
+```
+module:{
+        rules:[
+        {
+          test:/\.css$/,   
+          use:["style-loader","css-loader"]
+        }]
+    }
+```
+
